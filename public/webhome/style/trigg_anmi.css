@@ -1,0 +1,155 @@
+.vis { visibility: hidden; }
+
+.anmi_1, .anmi_2, .anmi_3, .anmi_4, .anmi_5, .anmi_6, .anmi_7, .anmi_8, .anmi_9, .anmi_10, .anmi_11, .anmi_12, .anmi_13, .anmi_14, .anmi_15 { visibility: hidden !important; }
+
+.bounce { animation: bounce 7s; visibility: visible !important; }
+
+.flash { animation: flash 7s; visibility: visible !important; }
+
+.pulse { animation: pulse 7s; visibility: visible !important; }
+
+.rubberBand { animation: rubberBand 7s; visibility: visible !important; }
+
+.shake { animation: shake 7s; visibility: visible !important; }
+
+.swing { animation: swing 7s; visibility: visible !important; }
+
+.tada { animation: tada 7s; visibility: visible !important; }
+
+.wobble { animation: wobble 7s; visibility: visible !important; }
+
+.jello { animation: jello 7s; visibility: visible !important; }
+
+.bounceIn { animation: bounceIn 7s; visibility: visible !important; }
+
+.bounceInDown { animation: bounceInDown 7s; visibility: visible !important; }
+
+.bounceInLeft { animation: bounceInLeft 7s; visibility: visible !important; }
+
+.bounceInRight { animation: bounceInRight 7s; visibility: visible !important; }
+
+.bounceInUp { animation: bounceInUp 7s; visibility: visible !important; }
+
+.bounceOut { animation: bounceOut 7s; visibility: visible !important; }
+
+.bounceOutDown { animation: bounceOutDown 7s; visibility: visible !important; }
+
+.bounceOutLeft { animation: bounceOutLeft 7s; visibility: visible !important; }
+
+.bounceOutRight { animation: bounceOutRight 7s; visibility: visible !important; }
+
+.bounceOutUp { animation: bounceOutUp 7s; visibility: visible !important; }
+
+.fadeIn { animation: fadeIn 7s; visibility: visible !important; }
+
+.fadeInDown { animation: fadeInDown 7s; visibility: visible !important; }
+
+.fadeInDownBig { animation: fadeInDownBig 7s; visibility: visible !important; }
+
+.fadeInLeft { animation: fadeInLeft 7s; visibility: visible !important; }
+
+.fadeInLeftBig { animation: fadeInLeftBig 7s; visibility: visible !important; }
+
+.fadeInRight { animation: fadeInRight 7s; visibility: visible !important; }
+
+.fadeInRightBig { animation: fadeInRightBig 7s; visibility: visible !important; }
+
+.fadeInUp { animation: fadeInUp 7s; visibility: visible !important; }
+
+.fadeInUpBig { animation: fadeInUpBig 7s; visibility: visible !important; }
+
+.fadeOut { animation: fadeOut 7s; visibility: visible !important; }
+
+.fadeOutDown { animation: fadeOutDown 7s; visibility: visible !important; }
+
+.fadeOutDownBig { animation: fadeOutDownBig 7s; visibility: visible !important; }
+
+.fadeOutLeft { animation: fadeOutLeft 7s; visibility: visible !important; }
+
+.fadeOutLeftBig { animation: fadeOutLeftBig 7s; visibility: visible !important; }
+
+.fadeOutRight { animation: fadeOutRight 7s; visibility: visible !important; }
+
+.fadeOutRightBig { animation: fadeOutRightBig 7s; visibility: visible !important; }
+
+.fadeOutUp { animation: fadeOutUp 7s; visibility: visible !important; }
+
+.fadeOutUpBig { animation: fadeOutUpBig 7s; visibility: visible !important; }
+
+.flip { animation: flip 7s; visibility: visible !important; }
+
+.flipInX { animation: flipInX 7s; visibility: visible !important; }
+
+.flipInY { animation: flipInY 7s; visibility: visible !important; }
+
+.flipOutX { animation: flipOutX 7s; visibility: visible !important; }
+
+.flipOutY { animation: flipOutY 7s; visibility: visible !important; }
+
+.lightSpeedIn { animation: lightSpeedIn 7s; visibility: visible !important; }
+
+.lightSpeedOut { animation: lightSpeedOut 7s; visibility: visible !important; }
+
+.rotateIn { animation: rotateIn 7s; visibility: visible !important; }
+
+.rotateInDownLeft { animation: rotateInDownLeft 7s; visibility: visible !important; }
+
+.rotateInDownRight { animation: rotateInDownRight 7s; visibility: visible !important; }
+
+.rotateInUpLeft { animation: rotateInUpLeft 7s; visibility: visible !important; }
+
+.rotateInUpRight { animation: rotateInUpRight 7s; visibility: visible !important; }
+
+.rotateOut { animation: rotateOut 7s; visibility: visible !important; }
+
+.rotateOutDownLeft { animation: rotateOutDownLeft 7s; visibility: visible !important; }
+
+.rotateOutDownRight { animation: rotateOutDownRight 7s; visibility: visible !important; }
+
+.rotateOutUpLeft { animation: rotateOutUpLeft 7s; visibility: visible !important; }
+
+.rotateOutUpRight { animation: rotateOutUpRight 7s; visibility: visible !important; }
+
+.slideInUp { animation: slideInUp 7s; visibility: visible !important; }
+
+.slideInDown { animation: slideInDown 7s; visibility: visible !important; }
+
+.slideInLeft { animation: slideInLeft 7s; visibility: visible !important; }
+
+.slideInRight { animation: slideInRight 7s; visibility: visible !important; }
+
+.slideOutUp { animation: slideOutUp 7s; visibility: visible !important; }
+
+.slideOutDown { animation: slideOutDown 7s; visibility: visible !important; }
+
+.slideOutLeft { animation: slideOutLeft 7s; visibility: visible !important; }
+
+.slideOutRight { animation: slideOutRight 7s; visibility: visible !important; }
+
+.zoomIn { animation: zoomIn 7s; visibility: visible !important; }
+
+.zoomInDown { animation: zoomInDown 7s; visibility: visible !important; }
+
+.zoomInLeft { animation: zoomInLeft 7s; visibility: visible !important; }
+
+.zoomInRight { animation: zoomInRight 7s; visibility: visible !important; }
+
+.zoomInUp { animation: zoomInUp 7s; visibility: visible !important; }
+
+.zoomOut { animation: zoomOut 7s; visibility: visible !important; }
+
+.zoomOutDown { animation: zoomOutDown 7s; visibility: visible !important; }
+
+.zoomOutLeft { animation: zoomOutLeft 7s; visibility: visible !important; }
+
+.zoomOutRight { animation: zoomOutRight 7s; visibility: visible !important; }
+
+.zoomOutUp { animation: zoomOutUp 7s; visibility: visible !important; }
+
+.hinge { animation: hinge 7s; visibility: visible !important; }
+
+.rollIn { animation: rollIn 7s; visibility: visible !important; }
+
+.rollOut { animation: rollOut 7s; visibility: visible !important; }
+
+/*# sourceMappingURL=trigg_anmi.css.map */

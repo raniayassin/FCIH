@@ -6,7 +6,7 @@
     
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
     
-    <title >Cources Camp</title>
+    <title >Courses Camp</title>
     <style type="text/css">
         html {
     background-color: white ;

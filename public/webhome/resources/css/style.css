@@ -1,0 +1,547 @@
+
+/*-------------------------------*/ 
+/*--------SETUP------------------*/
+/*-------------------------------*/ 
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    background-color: white ;
+    color: #555 ;
+    font-family: 'lato','arial', sans-serif;
+    font-size: 20px ;
+    text-rendering: optimizeLegibility;
+    font-weight: 300; 
+}
+
+.clearfix {zoom: ;}
+.clearfix:after {
+    content: '.' ; 
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+/*-------------------------------*/ 
+/*--------REUSNABLE------------------*/
+/*-------------------------------*/
+
+section {
+    padding: 80px 0px ;
+}
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.box {
+    padding: 2%; 
+}
+/*-------------------------------*/ 
+/*--------HEADEER------------------*/
+/*-------------------------------*/
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7) , rgba(0, 0, 0, 0.7)),url(img/hero.jpg) ; 
+    background-size: cover ; 
+    background-position: center ; 
+    height: 100vh ; 
+    background-attachment: fixed;
+
+}
+.logo {
+    height: 100px ; 
+    width: auto ; 
+    float: left ; 
+    margin-top: 20px ; 
+}
+.main-nav {
+    float: right ; 
+    list-style: none ; 
+    margin-top: 40px ;
+}
+
+.main-nav li {
+    display: inline-block ; 
+    margin-left: 40px ; 
+     
+}
+.main-nav li a:link, 
+.main-nav li a:visited {
+    padding: 8px 0px ; 
+    color: white ; 
+    text-decoration: none ; 
+    text-transform: uppercase ; 
+    font-size: 85% ; 
+    border-bottom: 2px solid transparent ;
+    transition:  border-bottom .02s; 
+
+    
+}
+.main-nav li a:hover, 
+.main-nav li a:active {
+    border-bottom: 2px solid #e67e22 ; 
+}
+
+
+
+.hero-text-box {
+    position: absolute ; 
+    width: 1140px ; 
+    left : 50% ; 
+    top : 50% ;
+    transform: translate(-50% , -50%) ;
+     
+}
+
+/*-------------------------------*/ 
+/*--------HEADDINGS------------------*/
+/*-------------------------------*/
+
+h1,
+h2 {
+    
+    font-weight: 300 ; 
+    text-transform: uppercase ; 
+    letter-spacing: .5px ; 
+}
+
+h1 {
+    margin: 0 ; 
+    margin-bottom: 20px ; 
+    color: white ; 
+    word-spacing: 3px ; 
+    font-size: 240% ; 
+
+}
+
+h2 {
+    
+    font-size: 180% ;
+    word-spacing: 2px;
+    text-align: center;
+    margin-bottom: 30px ;
+    
+}
+h2:after {
+    display: block;
+    height: 2px ;
+    width: 100px ;
+    background-color:#e67e22;
+    content: " ";
+    margin: 0 auto ;
+    margin-top: 30px ;
+}
+
+h3{
+    margin-bottom: 15px;
+}
+/*-------------------------------*/ 
+/*--------PARAGRAPHS------------------*/
+/*-------------------------------*/
+.long-copy {
+    line-height: 145%;
+    width: 80% ;
+    margin-left: 10%;
+    margin-bottom: 17px;
+    
+
+}
+.box p {
+    font-size: 90%;
+    line-height: 145%;
+    
+}
+
+/*_______ICONS_____*/ 
+.icon-big {
+    font-size: 300%; 
+    display: block;
+    color : #e67e22 ;
+    margin-bottom: 10px;
+}
+
+
+/*-------------------------------*/ 
+/*--------BUTTOMS------------------*/
+/*-------------------------------*/
+
+.btm:link,
+.btm:visited,
+input[type=submit] {
+     display: inline-block ; 
+     padding: 10px 30px ; 
+     font-weight: 300px ; 
+     text-decoration: none ; 
+     border-radius: 200px ; 
+     transition: background-color .2s , color .2s , border .2s ; 
+    
+}
+
+.btm-full:link,
+.btm-full:visited,
+input[type=submit] {
+    background-color: #e67e22 ; 
+    color: white ; 
+    border: 1px solid #e67e22 ; 
+    margin-right: 15px ; 
+    
+}
+
+.btm-ghost:link ,
+.btm-ghost:visited {
+    border: 1px solid #e67e22 ; 
+    color: #e67e22 ; 
+    
+}
+
+.btm:hover,
+.btm:active,
+input[type=submit]:hover,
+input[type=submit]:active {
+    
+    background-color: #c97122 ;
+    
+}
+
+.btm-full:hover,
+.btm-full:active,
+input[type=submit] {
+    border: 1px solid #e67e22 ; 
+    
+}
+
+.btm-ghost:hover ,
+.btm-ghost:active {
+    border: 1px solid #e67e22 ; 
+    color: #fff ; 
+}
+
+
+/*-------------------------------*/ 
+/*--------Meals------------------*/
+/*-------------------------------*/
+
+.meals-section {
+    padding: 0;
+}
+
+.meals-showcase{
+        list-style: none ; 
+        width: 100% ;
+    }
+    
+.meals-showcase li {
+        display: block;
+        float: left ; 
+        width: 25%; 
+        }
+.meals-photo {
+        width: 100%;
+        margin: 0 ; 
+        overflow: hidden;
+        background-color: black;
+    }
+.meals-photo img {
+        opacity: .7 ;
+        width: 100%;
+        height: auto; 
+        transform: scale(1) ; 
+        transition: transform .5s , opacity .5s;
+    }
+.meals-photo img:hover {
+    opacity: 1;
+    transform: scale(1.15) ; 
+}
+/*-------------------------------*/ 
+/*--------HOW IT WORKS------------------*/
+/*-------------------------------*/
+
+
+.section-steps {
+    background-color: #f0f0f0 ;
+
+}
+.steps-box{
+    margin-top: 30px;
+}
+.steps-box:first-child {
+    text-align:right;
+    padding-right: 3%;
+}
+
+.steps-box:last-child {
+    padding-left: 3% ; 
+}
+
+.app-screen {
+    width: 40% 
+}
+
+.works-step {
+    margin-bottom: 30px ; 
+}
+.works-step div {
+    color: #e67e22 ; 
+    border: 2px solid #e67e22 ;
+    border-radius: 50% ; 
+    width: 50px;
+    height: 50px;
+    text-align: center ; 
+    display: inline-block ; 
+    padding: 5px;
+    font-size: 150%;
+    margin-bottom: 15px;
+}
+
+.bttm-apps img {
+    width: auto;
+    height: 50px;
+    margin-left: 10px; 
+}
+.bttm-apps:link,
+.bttm-apps:visited {
+    border: 0;
+}
+
+.box img {
+    width: 200px;
+    height: 175px;
+    margin-left: auto;
+    margin-bottom: 10px;
+    
+}
+.ion-ios-person {
+    color: #e67e22 ; 
+    margin-right: 8px ; 
+    margin-top: -2px;
+}
+.ion-pizza{
+    color: #e67e22 ; 
+    margin-right: 8px ;
+    margin-top: -2px;
+
+}
+.city-futures
+.ion-social-twitter  {
+    color: cornflowerblue ; 
+    margin-right: 8px ;
+}
+
+/*----- links -----*/ 
+a:link,
+a:visited {
+    color:cornflowerblue ; 
+    text-decoration: none ; 
+    padding-bottom: 1px ; 
+    border-bottom: 1px solid cornflowerblue ; 
+    transition: border-bottom .2s,  color 1s ;
+}
+
+a:hover, 
+a:active {
+    color: #555 ; 
+    border-bottom: 1px solid transparent ; 
+    
+}
+
+/*-------------------------------*/ 
+/*--------PEOPLE------------------*/
+/*-------------------------------*/
+
+.people {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.81), rgba(0, 0, 0, 0.81)), url(img/back-customers.jpg) ;
+    background-size: cover ;
+    color: white ; 
+    background-attachment: fixed;
+}
+blockquote {
+    padding: .5% ; 
+    font-style: italic ;
+    line-height: 145%;
+    position: relative;
+    margin-top: 40px; 
+}
+
+blockquote:before {
+    content: "\201C";
+    font-size: 400%;
+    display: block;
+    position: absolute ; 
+    top: -5px ; 
+    left: -5px;
+    
+    
+}
+cite {
+    font-size: 90%;
+    margin-top: 25px ; 
+    display: block;
+    
+}
+cite img {
+    height: 45px;
+    border-radius: 50%;
+    margin-right: 10px; 
+    vertical-align: middle;
+}
+
+
+/*-------------------------------*/ 
+/*--------SIGN UP------------------*/
+/*-------------------------------*/
+.plans {
+    background-color: #f4f4f4;
+}
+.plan-box {
+    background-color: #fff ; 
+    border-radius: 5px ; 
+    width: 90%;
+    box-shadow: 0 4px 4px #f0f0f0 ; 
+}
+.plan-box div {
+    padding: 15px ; 
+    border-bottom: 1px solid #ebebeb ; 
+}
+.price {
+    font-size: 250% ; 
+    margin-bottom: 10px ;
+    font-weight: 100;
+    color: #e67e22 ; 
+    
+}
+.plan-box div:last-child {
+    text-align: center;
+}
+
+.price-meal {
+    font-size: 100%;
+}
+.price span {
+    font-size: 30%;
+    font-weight: 300;
+}
+.plan-box ul {
+    list-style: none ; 
+    
+}
+.plan-box ul li {
+    padding: 5px 0 ; 
+    
+}
+.small-icons {
+    padding-right: 15px;
+}
+
+
+/*-------------------------------*/ 
+/*--------FORM------------------*/
+/*-------------------------------*/
+
+.contact-form {
+    width: 60%;   
+    margin: 0 auto ;
+}
+
+input[type=text],
+input[type=email],
+select,
+textarea {
+    width: 100%;
+    padding: 7px ;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    
+}
+
+textarea {
+    height: 100px;
+}
+
+
+
+/*-------------------------------*/ 
+/*--------FOOTER------------------*/
+/*-------------------------------*/
+
+footer {
+    background-color: #333;
+    font-size: 85%;
+}
+
+.footer-nav {
+    list-style: none;
+    float: left;
+    padding-bottom: 15px;
+
+}
+.social-links {
+    list-style: none;
+    float: right;
+    
+}
+
+.footer-nav li,
+.social-links li {
+    display: inline-block;
+    margin: 10px;
+}
+
+.footer-nav li:last-child,
+.social-links li:last-child {
+    margin: 0;
+}
+
+.footer-nav li a:link,
+.footer-nav li a:visited,
+.social-links li a:link,
+.social-links li a:visited {
+    text-decoration: none;
+    border: 0 ; 
+    color: #888 ;
+    transition: color .4s;
+}
+
+
+.footer-nav li a:hover,
+.footer-nav li a:active,
+.social-links li a:hover,
+.social-links li a:active {
+    color: #ddd ; 
+    transition: color .4s ;
+}
+
+
+footer p {
+    color: #524f4f;
+    text-align: center ; 
+    padding-bottom: 20px;
+    font-size: 90%;
+}
+
+.social-links:link,
+.social-links:visited {
+    font-size: 100%;
+}
+
+.ion-social-facebook:hover {
+    color: #3b5998; 
+}
+.ion-social-twitter:hover {
+    color: #00aced; 
+}
+.ion-social-googleplus:hover {
+    color: #dd4b39; 
+}
+.ion-social-instagram:hover {
+    color: #fff	; 
+}
+
+
+
+
+
+
