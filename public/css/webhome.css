@@ -1,0 +1,302 @@
+
+        .app-screen {
+            position: relative;
+            float: left ; 
+            left: 20% ; 
+            width: 20% ; 
+        }
+        .works-step 
+        ,.bttm-apps{
+            position: relative ; 
+            left: 27%; 
+        }
+        
+            html {
+    background-color: white ;
+    color: #555 ;
+    font-family: 'lato','arial', sans-serif;
+    font-size: 20px ;
+    text-rendering: optimizeLe gibility;
+    font-weight: 300; 
+    overflow-x:hidden ; 
+}    
+        header{
+             background-image: url("images/welcome.jpg");
+            background-image:linear-gradient(rgba(0, 0, 0, 0.35) , rgba(0, 0, 0, 0.35)),url(images/welcome.jpg);
+            background-position: center ; 
+            background-size: cover ;
+            height: 100vh ;
+            background-attachment: fixed ; 
+            
+        }
+        #logo {
+            margin-top: 20px ;
+            margin-left: -20px ; 
+            height: 100px ; 
+            width: auto ; 
+            
+        }
+        h1  {
+            position: fixed; 
+            left: 30% ;
+            top:-70px ; 
+            font-weight: 400 ; 
+            font-style: bold ;
+            font-size: 400%; 
+            
+        }
+        #first-p{
+            color: white;
+            padding-top: 25px ;
+            position: relative;
+            left: 40%;
+            font-size: 120% ;
+        }
+        #fcih {
+            padding-top: 5px ;
+            position: fixed ; 
+            left: 46%;
+            color: #E67E22 ;
+            font-size: 150%;
+            font-weight: 700 ;
+        }
+        .capital {
+            color: #E67E22; 
+            font-weight: 700 ;
+        }
+        #first-btm {
+            padding-top: 60px ;
+            position: fixed  ;
+            left: 36% ;
+        }
+        .courses {
+             margin: 0 ! important ; 
+            
+        }
+        .courses-info {
+            margin: 40px ;
+            padding: 15px ; 
+            background-color: #ebebeb; 
+            height: 330px;
+        }
+        h2 {
+            color: black ; 
+        }
+        #course-title {
+            font-size: 200% ;
+            
+        }
+        .ion-person {
+            color: #e67e22 ; 
+            font-size: 30px ; 
+            padding: 5px 5px 5px 20px ;
+        }
+        
+        .instructor {
+            font-size: 20px ;
+            padding-left: 10px;
+        }
+        .description {
+            width: 35%;
+            padding: 5px 5px 5px 50px ;
+            color: #8d8d8d;
+            font-size: 80%; 
+
+        }
+        .content {
+            width: 15%;
+            font-size: 15px ;
+            position: relative;
+            left: 38%;
+            bottom: 110px ; 
+
+        }
+        a:link,
+        a:visited {
+            color:cornflowerblue ; 
+            text-decoration: none ; 
+            padding-bottom: 1px ; 
+            border-bottom: 1px solid cornflowerblue ; 
+            transition: border-bottom .2s,  color 1s ;
+        }
+
+        a:hover, 
+        a:active {
+            color: #E67E22  ; 
+            border-bottom: 1px solid transparent ; 
+
+        }
+
+        .video {
+            position:relative ; 
+            left: 60%;
+            bottom: 275px ; 
+            width: 450px ;
+            height: 195px;
+             
+            
+        }
+        /*=======external====*/
+        /*===================*/
+        /*===================*/
+        
+        /*=====Headder========*/
+         .hero-text-box {
+                position: absolute ; 
+                width: 1140px ; 
+                left : 50% ; 
+                top : 50% ;
+                transform: translate(-50% , -50%) ;
+
+            }
+        .main-nav {
+            float: right ; 
+            list-style: none ; 
+            margin-top: 40px ;
+        }
+
+        .main-nav li {
+            display: inline-block ; 
+            margin-left: 40px ; 
+
+        }
+        .main-nav li a:link, 
+        .main-nav li a:visited {
+            padding: 8px 0px ; 
+            color: white ; 
+            text-decoration: none ; 
+            text-transform: uppercase ; 
+            font-size: 85% ; 
+            border-bottom: 2px solid transparent ;
+            transition:  border-bottom .02s; 
+
+
+        }
+        .main-nav li a:hover, 
+        .main-nav li a:active {
+            border-bottom: 2px solid #e67e22 ; 
+        }
+        /*=====Headding========*/
+        h1,
+        h2 {
+
+            font-weight: 300 ; 
+            text-transform: uppercase ; 
+            letter-spacing: .5px ; 
+        }
+
+        h1 {
+        
+            color: white ; 
+            word-spacing: 3px ; 
+
+    }
+
+        h2 {
+
+            font-size: 180% ;
+            word-spacing: 2px;
+            text-align: center;
+            margin-bottom: 30px ;
+
+    }
+    h2:after {
+        display: block;
+        height: 2px ;
+        width: 100px ;
+        background-color:#e67e22;
+        content: " ";
+        margin: 0 auto ;
+        margin-top: 30px ;
+    }
+
+    h3{
+        margin-bottom: 15px;
+    }
+        /*-------------------------------*/ 
+        /*--------SETUP------------------*/
+        /*-------------------------------*/ 
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        html {
+            background-color: white ;
+            color: #555 ;
+            font-family: 'lato','arial', sans-serif;
+            font-size: 20px ;
+            text-rendering: optimizeLegibility;
+            font-weight: 300; 
+        }
+
+        
+        /*-------------------------------*/ 
+        /*--------REUSNABLE------------------*/
+        /*-------------------------------*/
+
+        section {
+            padding: 80px 0px ;
+        }
+
+        .row {
+            max-width: 1140px;
+            margin: 0 auto;
+        }
+
+        
+
+        /*-------------------*/
+        /*-----botton--------*/
+        /*-------------------*/
+        .btm:link,
+        .btm:visited,
+        input[type=submit] {
+             display: inline-block ; 
+             padding: 15px 30px ; 
+             font-weight: 300px ; 
+             text-decoration: none ; 
+             border-radius: 200px ; 
+             transition: background-color .2s , color .2s , border .2s ; 
+
+        }
+
+        .btm-full:link,
+        .btm-full:visited,
+        input[type=submit] {
+            background-color: #e67e22; 
+            color: white; 
+            border: 1px solid #e67e22 ; 
+            margin-right: 15px ; 
+
+        }
+
+        .btm-ghost:link ,
+        .btm-ghost:visited {
+            border: 1px solid #e67e22 ; 
+            color: #e67e22 ; 
+
+        }
+
+        .btm:hover,
+        .btm:active,
+        input[type=submit]:hover,
+        input[type=submit]:active {
+
+            background-color: #c97122 ;
+
+        }
+
+        .btm-full:hover,
+        .btm-full:active,
+        input[type=submit] {
+            border: 1px solid #e67e22 ; 
+
+        }
+
+        .btm-ghost:hover ,
+        .btm-ghost:active {
+            border: 1px solid #e67e22 ; 
+            color: #fff ; 
+        }

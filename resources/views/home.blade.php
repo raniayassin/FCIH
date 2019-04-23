@@ -1,7 +1,4 @@
-@extends('layouts.app')
 
-
-@section('content')
 <!DOCTYPE HTML>
 <html lang="en">
 
@@ -359,7 +356,7 @@
 
     </style>
 
-</head>
+</head>                                  
     <body>
         <header> 
             <nav>
@@ -371,7 +368,7 @@
                             {{ session('status') }}
                         </div>
                     @endif
-                        <li> <a href="#">Home</a></li>
+                        <li> <a href="{{ url('/') }}">Home</a></li>
                         <li> <a href="#">Contact</a></li>
                         <li> <a href="#">ِAbout Us</a></li>
                         <li> <a href="{{ route('logout') }}"onclick="event.preventDefault();  document.getElementById('logout-form').submit();">Logout</a>
@@ -444,9 +441,7 @@
             
        
 
-
-
-
+    
 
         <footer class="footer-distributed">
 
@@ -504,10 +499,12 @@
             </div>
 
         </footer>
+   
+  
 
     </body>
 </html>
 
-@endsection
+
 
 

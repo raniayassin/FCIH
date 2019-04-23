@@ -1,0 +1,31 @@
+$anmi_list: bounce flash pulse rubberBand shake swing tada wobble jello bounceIn bounceInDown bounceInLeft bounceInRight bounceInUp bounceOut bounceOutDown bounceOutLeft bounceOutRight bounceOutUp fadeIn fadeInDown fadeInDownBig fadeInLeft fadeInLeftBig fadeInRight fadeInRightBig fadeInUp fadeInUpBig fadeOut fadeOutDown fadeOutDownBig fadeOutLeft fadeOutLeftBig fadeOutRight fadeOutRightBig fadeOutUp fadeOutUpBig flip flipInX flipInY flipOutX flipOutY lightSpeedIn lightSpeedOut rotateIn rotateInDownLeft rotateInDownRight rotateInUpLeft rotateInUpRight rotateOut rotateOutDownLeft rotateOutDownRight rotateOutUpLeft rotateOutUpRight slideInUp slideInDown slideInLeft slideInRight slideOutUp slideOutDown slideOutLeft slideOutRight zoomIn zoomInDown zoomInLeft zoomInRight zoomInUp zoomOut zoomOutDown zoomOutLeft zoomOutRight zoomOutUp hinge rollIn rollOut;
+$time:0.7s;
+.vis
+{
+    visibility: hidden;
+}
+.anmi_1,
+.anmi_2,
+.anmi_3,
+.anmi_4,
+.anmi_5,
+.anmi_6,
+.anmi_7,
+.anmi_8,
+.anmi_9,
+.anmi_10,
+.anmi_11,
+.anmi_12,
+.anmi_13,
+.anmi_14,
+.anmi_15
+{
+    visibility: hidden!important;
+}
+@each $i in $anmi_list
+{
+    .#{$i}{
+        animation:#{$i} 7s  ;
+        visibility: visible!important;
+        }
+}

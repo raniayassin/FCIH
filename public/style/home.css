@@ -1,0 +1,357 @@
+/*start of main colors*/
+/*end of main colors*/
+/*start of timing anmi*/
+/*end of timing anmi*/
+body { overflow: hidden; }
+
+div.header {  overflow: hidden; }
+
+* { transition: all 0.5s ease-in-out; outline: none; list-style: none; }
+
+body { height: 20000px; }
+
+/* start of hidden objects*/
+button.pause { position: fixed; bottom: 10px; left: 10px; width: 50px; height: 50px; background-color: #e67e22; color: #fff; padding: 0px; border-radius: 50%; border: 0px; z-index: 9999; font-size: 44px; opacity: 0; }
+button.pause:hover { background-color: #424147; box-shadow: 5px 5px 13px #ccc; }
+
+video.ved_1 { width: 100%; height: 100%; position: absolute; top: 0px; left: 0px; opacity: 0; }
+
+button.play { position: fixed; bottom: 10px; left: 10px; width: 50px; height: 50px; background-color: #e67e22; color: #fff; padding: 0px; border-radius: 50%; border: 0px; z-index: 888; font-size: 30px; opacity: 0; }
+button.play:hover { background-color: #424147; box-shadow: 5px 5px 13px #ccc; }
+
+/* end of hidden objects*/
+/*start of first sec*/
+section.first-sec { height: 1000px; }
+section.first-sec h2 { padding: 50px 0; font-weight: normal; font-family: Aparajita; font-size: 20px; }
+section.first-sec div.con1 div.o1, section.first-sec div.con1 div.o2, section.first-sec div.con1 div.o3, section.first-sec div.con1 div.o4 { box-shadow: -3px 3px 13px 10px #ccc; }
+section.first-sec div.con1 div.o1:hover, section.first-sec div.con1 div.o2:hover, section.first-sec div.con1 div.o3:hover, section.first-sec div.con1 div.o4:hover { box-shadow: -4px 4px 18px 18px #ccc; }
+section.first-sec div.con1 div.o1 { background-image: url(../images/sec-1-1.jpg); height: 350px; background-size: cover; color: #fff; padding-top: 130px; position: relative; z-index: 3; }
+section.first-sec div.con1 div.o1:after { content: ""; width: 100%; height: 100%; position: absolute; top: 0px; left: 0px; background-color: rgba(0, 0, 0, 0.5); z-index: -2; }
+section.first-sec div.con1 div.o1 i.o1 { padding-bottom: 25px; cursor: pointer; }
+section.first-sec div.con1 div.o1 i.o1:hover { color: #e67e22; transition: all 0.5s ease-in-out; }
+section.first-sec div.con1 div.o1 h4 { padding-bottom: 4px; }
+section.first-sec div.con1 div.o1 p { font-size: 14px; padding-bottom: 10px; z-index: 4; }
+section.first-sec div.con1 div.o1 button { border: 0px; width: 48%; text-align: center; float: left; padding: 6px; color: #fff; outline: none; }
+section.first-sec div.con1 div.o1 button.o1 { margin-right: 4%; background-color: #e67e22; border-radius: 0px 30px 30px 0px; }
+section.first-sec div.con1 div.o1 button.o1:hover { background-color: #000; opacity: 0.8; transition: all 0.5s ease-in-out; width: 52%; margin: 0%; clear: both; }
+section.first-sec div.con1 div.o1 button.o2 { border-radius: 30px 0px 0px 30px; background-color: rgba(70, 69, 74, 0.5); }
+section.first-sec div.con1 div.o1 button.o2:hover { background-color: #000; opacity: 0.8; color: #e67e22; transition: all 0.5s ease-in-out; }
+section.first-sec div.con1 div.o2 { height: 350px; }
+section.first-sec div.con1 div.o2 div.up { background-image: url(../images/sec-1-4.jpg); height: 50%; background-size: cover; position: relative; z-index: 0; }
+section.first-sec div.con1 div.o2 div.up:after { content: ""; width: 100%; height: 100%; position: absolute; top: 0px; left: 0px; background-color: rgba(0, 0, 0, 0.5); z-index: -1; }
+section.first-sec div.con1 div.o2 div.up img { width: 100%; height: 100%; }
+section.first-sec div.con1 div.o2 div.up img:hover { transform: scale(1.4); }
+section.first-sec div.con1 div.o2 div.up div.scale { width: 80px; height: 80px; border-radius: 40%; position: absolute; top: 70%; left: 35%; opacity: 0.97; overflow: hidden; }
+section.first-sec div.con1 div.o2 div.down h3 { padding-top: 40px; font-weight: normal; font-family: Century; }
+section.first-sec div.con1 div.o2 div.down p.home { padding-bottom: 30px; }
+section.first-sec div.con1 div.o2 div.down button { width: 39%; padding: 6px; border: 0px; float: left; }
+section.first-sec div.con1 div.o2 div.down button:hover { background-color: #e67e22; color: #fff; }
+section.first-sec div.con1 div.o2 div.down div.rad { width: 42px; height: 40px; border-radius: 50%; float: left; background: #e67e22; color: #fff; padding: 10px 13px; font-size: 20px; margin: 0px 3%; }
+section.first-sec div.con1 div.o2 div.down div.rad:hover { transform: rotate(360deg) scale(1.4); }
+section.first-sec div.con1 div.o2 div.down div.rad:active { transform: scale(0.6); background-color: #424147; }
+section.first-sec div.con1 div.o2 div.down button.o1 { border-radius: 0 30px 30px 0; }
+section.first-sec div.con1 div.o2 div.down button.o2 { border-radius: 30px 0 0 30px; }
+section.first-sec div.con1 div.o3 { height: 450px; padding-top: 15px; }
+section.first-sec div.con1 div.o3 h4 { font-family: Aparajita; font-size: 20px; font-weight: normal; padding-bottom: 15px; }
+section.first-sec div.con1 div.o3 div.rad-1 { width: 20px; height: 20px; border-radius: 50%; background-color: #ccc; padding: 3px 4px; color: #fff; font-weight: normal; float: left; font-size: 14px; }
+section.first-sec div.con1 div.o3 div.rad-1:hover { transform: rotate(360deg) scale(1.1); transform-origin: top; background-color: #e67e22; }
+section.first-sec div.con1 div.o3 h4.upper { width: 80%; float: left; }
+section.first-sec div.con1 div.o3 div.img { height: 100px; width: 100%; background-image: url(../images/sec-1-5.jpg); position: relative; background-size: cover; margin-top: 30px; }
+section.first-sec div.con1 div.o3 div.img:after { content: ""; width: 100%; height: 100%; position: absolute; top: 0px; left: 0px; background-color: rgba(0, 0, 0, 0.3); }
+section.first-sec div.con1 div.o3 div.l1, section.first-sec div.con1 div.o3 div.l2, section.first-sec div.con1 div.o3 div.l3 { height: 102px; border-bottom: 1px solid #ccc; }
+section.first-sec div.con1 div.o3 div.l1 h4, section.first-sec div.con1 div.o3 div.l2 h4, section.first-sec div.con1 div.o3 div.l3 h4 { padding: 30px 0px 0px; color: #777; }
+section.first-sec div.con1 div.o3 div.l1 p, section.first-sec div.con1 div.o3 div.l2 p, section.first-sec div.con1 div.o3 div.l3 p { color: #ddd; }
+section.first-sec div.con1 div.o3 div.l1:hover, section.first-sec div.con1 div.o3 div.l2:hover, section.first-sec div.con1 div.o3 div.l3:hover { background-color: #e67e22; color: #fff; }
+section.first-sec div.con1 div.o4 { height: 400px; }
+section.first-sec div.con1 div.o4 div.up { background-image: url(../images/sec-1-6.jpg); background-size: cover; height: 75%; position: relative; z-index: 1; color: #fff; }
+section.first-sec div.con1 div.o4 div.up:after { content: ""; width: 100%; height: 100%; position: absolute; top: 0px; left: 0px; background-color: rgba(0, 0, 0, 0.3); z-index: -1; }
+section.first-sec div.con1 div.o4 div.up button { width: 25%; padding: 4px; height: 30px; border: 0px; margin-top: 80px; margin-bottom: 80px; }
+section.first-sec div.con1 div.o4 div.up button.o1 { color: #fff; background-color: transparent; }
+section.first-sec div.con1 div.o4 div.up button.o1:hover { color: #e67e22; width: 20%; }
+section.first-sec div.con1 div.o4 div.up button.o2 { color: #fff; background-color: #e67e22; float: right; border-radius: 30px 0px 0px 30px; }
+section.first-sec div.con1 div.o4 div.up button.o2:hover { width: 30%; background-color: #424147; }
+section.first-sec div.con1 div.o4 div.up div.hover:hover { color: #e67e22; cursor: pointer; }
+section.first-sec div.con1 div.o4 div.down { padding-top: 20px; }
+section.first-sec div.con1 div.o4 div.down div.rad { width: 40px; height: 40px; border-radius: 50%; padding: 10px 10px; background: #e67e22; color: #fff; font-size: 20px; opacity: .8; }
+section.first-sec div.con1 div.o4 div.down div.rad:hover { transform: scale(1.2); }
+section.first-sec div.con2 div.o1, section.first-sec div.con2 div.o2, section.first-sec div.con2 div.o3, section.first-sec div.con2 div.o4 { box-shadow: -1px 1px 8px 8px #ccc; }
+section.first-sec div.con2 div.o1:hover, section.first-sec div.con2 div.o2:hover, section.first-sec div.con2 div.o3:hover, section.first-sec div.con2 div.o4:hover { box-shadow: -5px 5px 9px 9px #ccc; }
+section.first-sec div.con2 div.o1 { margin-top: -60px; }
+section.first-sec div.con2 div.o2 { margin-left: -20px; margin-top: 10px; }
+section.first-sec div.con2 div.o3 { margin-left: -10px; margin-top: 20px; }
+section.first-sec div.con2 div.o4 { margin-top: -30px; margin-left: 10px; }
+section.first-sec div.con2 div.o1 { height: 220px; background-color: #e67e22; font-family: Aparajita; font-size: 20px; color: #fff; overflow: hidden; }
+section.first-sec div.con2 div.o1 h2 { padding-top: 19px; font-family: Aparajita; font-size: 24px; padding-bottom: 5px; }
+section.first-sec div.con2 div.o1 p { font-size: 16px; }
+section.first-sec div.con2 div.o1 div.par { width: 100px; height: 40px; display: block; margin: auto; background-color: rgba(0, 0, 0, 0.4); padding: 4px 6px; border-radius: 30px; position: relative; cursor: pointer; margin-top: 15px; }
+section.first-sec div.con2 div.o1 div.par:hover { background-color: rgba(0, 0, 0, 0.8); }
+section.first-sec div.con2 div.o1 div.par span { padding-top: 7px; padding-left: 11px; font-size: 20px; }
+section.first-sec div.con2 div.o1 div.rad { width: 30px; height: 30px; border-radius: 50%; background-color: #fff; color: #e67e22; padding: 7px; position: absolute; right: 4px; top: 5px; }
+section.first-sec div.con2 div.o2 { height: 200px; background-image: url(../images/sec-1-7.jpg); background-size: cover; position: relative; }
+section.first-sec div.con2 div.o2 img.logo { position: absolute; top: -111px; left: 54px; width: 146px; height: 146px; }
+section.first-sec div.con2 div.o2 img.logo:hover { transform: rotate(360deg) scale(1.4); z-index: -1; }
+section.first-sec div.con2 div.o2 div.contain-content { margin-top: 80px; color: #fff; }
+section.first-sec div.con2 div.o2 div.contain-content button { border: 0px; background-color: #e67e22; border-radius: 30px; padding: 3px 9px; color: #fff; }
+section.first-sec div.con2 div.o2 div.contain-content button:hover { background-color: #424147; }
+section.first-sec div.con2 div.o2 div.contain-content p { font-size: 16px; font-family: Aparajita; padding-top: 3px; }
+section.first-sec div.con2 div.o2 div.contain-content div.k1, section.first-sec div.con2 div.o2 div.contain-content div.k2 { width: 50%; float: left; cursor: pointer; }
+section.first-sec div.con2 div.o2 div.contain-content div.k1:hover, section.first-sec div.con2 div.o2 div.contain-content div.k2:hover { color: #e67e22; }
+section.first-sec div.con2 div.o3 { height: 310px; background-color: #fff; overflow: hidden; color: #424147; }
+section.first-sec div.con2 div.o3 img { width: 50px; height: 50px; border-radius: 30%; }
+section.first-sec div.con2 div.o3 div.l1, section.first-sec div.con2 div.o3 div.l2, section.first-sec div.con2 div.o3 div.l3 { height: 70px; border-radius: 10px; padding: 10px 0; cursor: pointer; }
+section.first-sec div.con2 div.o3 div.l1 h6, section.first-sec div.con2 div.o3 div.l2 h6, section.first-sec div.con2 div.o3 div.l3 h6 { font-size: 18px; font-family: Aparajita; }
+section.first-sec div.con2 div.o3 div.l1 p, section.first-sec div.con2 div.o3 div.l2 p, section.first-sec div.con2 div.o3 div.l3 p { font-family: Aparajita; font-size: 14px; }
+section.first-sec div.con2 div.o3 div.l1:hover, section.first-sec div.con2 div.o3 div.l2:hover, section.first-sec div.con2 div.o3 div.l3:hover { background-color: #e67e22; }
+section.first-sec div.con2 div.o3 div.par1 { float: right; width: 178px; background-color: #ccc; padding: 3px; border-radius: 30px 0px 0px 30px; margin-top: 20px; margin-bottom: 10px; opacity: .8; cursor: pointer; }
+section.first-sec div.con2 div.o3 div.par1:hover { opacity: 1; }
+section.first-sec div.con2 div.o3 div.par1 input { width: 80%; float: left; border: 0px; background-color: transparent; }
+section.first-sec div.con2 div.o3 div.par1 i { width: 20%; float: left; }
+section.first-sec div.con2 div.o3 button { border: 0px; background-color: #e67e22; padding: 4px 8px; width: 100%; color: #fff; border-radius: 30px; margin-top: 10px; }
+section.first-sec div.con2 div.o3 button:hover { background-color: #424147; }
+section.first-sec div.con2 div.o4 { height: 360px; }
+section.first-sec div.con2 div.o4 div.up { height: 50%; background-image: url(../images/sec-1-11.jpg); background-size: cover; position: relative; z-index: 1; color: #fff; }
+section.first-sec div.con2 div.o4 div.up:after { content: ""; width: 100%; height: 100%; position: absolute; top: 0px; left: 0px; background-color: rgba(0, 0, 0, 0.5); z-index: -1; }
+section.first-sec div.con2 div.o4 div.up span i { margin-top: 100px; padding-bottom: 20px; font-size: 30px; font-weight: normal; cursor: pointer; }
+section.first-sec div.con2 div.o4 div.up span i:hover { color: #e67e22; transform: rotate(360deg); }
+section.first-sec div.con2 div.o4 div.up button { width: 50%; text-align: center; border: 0px; float: left; height: 30px; margin-top: 12px; }
+section.first-sec div.con2 div.o4 div.up button.l1 { background-color: #fff; color: #777; border-radius: 0px 20px 20px 0px; }
+section.first-sec div.con2 div.o4 div.up button.l1:hover { background-color: #424147; color: #fff; }
+section.first-sec div.con2 div.o4 div.up button.l2 { background-color: #e67e22; color: #fff; border-radius: 20px 0px 0px 20px; }
+section.first-sec div.con2 div.o4 div.up button.l2:hover { background-color: #424147; color: #fff; }
+section.first-sec div.con2 div.o4 div.down { background-color: #fff; }
+section.first-sec div.con2 div.o4 div.down h4 { font-size: 18px; font-family: Aparajita; text-align: center; padding-top: 20px; }
+section.first-sec div.con2 div.o4 div.down p { color: #424147; padding-bottom: 20px; }
+section.first-sec div.con3 div.o1, section.first-sec div.con3 div.o2 { box-shadow: -1px 1px 8px 8px #ccc; }
+section.first-sec div.con3 div.o1:hover, section.first-sec div.con3 div.o2:hover { box-shadow: -5px 5px 9px 9px #ccc; }
+section.first-sec div.con3 div.o1 { color: #424147; background-color: #fff; height: 270px; padding-left: 20px; overflow: hidden; border-radius: 5px; overflow: hidden; margin-top: -100px; }
+section.first-sec div.con3 div.o1 h4 { font-family: Aparajita; font-size: 24px; padding-top: 30px; }
+section.first-sec div.con3 div.o1 p { font-family: Aparajita; font-size: 18px; padding-top: 10px; padding-bottom: 25px; }
+section.first-sec div.con3 div.o1 button { border: 0px; width: 140px; float: left; padding: 4px; height: 30px; border-radius: 30px; color: #fff; background-color: #e67e22; }
+section.first-sec div.con3 div.o1 button:hover { background-color: #424147; }
+section.first-sec div.con3 div.o1 div.tt { height: 270px; overflow: hidden; }
+section.first-sec div.con3 div.o1 img { width: 100%; height: 100%; filter: grayscale(0.5); }
+section.first-sec div.con3 div.o1 img:hover { filter: grayscale(0); transform: scale(1.1); }
+section.first-sec div.con3 div.o2 { height: 200px; background-image: url(../images/sec-1-13.jpg); background-size: cover; border-radius: 10px; margin-top: 10px; margin-left: -30px; filter: grayscale(1); position: relative; z-index: 99999; }
+section.first-sec div.con3 div.o2:hover { filter: grayscale(0); }
+section.first-sec div.con3 div.o2 div.par { width: 80%; display: block; margin: auto; background-color: transparent; border-radius: 20px; height: 30px; margin-top: 80px; position: relative; }
+section.first-sec div.con3 div.o2 div.par button:nth-of-type(1) { background-color: #e67e22; border: 0px; height: 100%; width: 30%; color: #fff; border-radius: 20px 0px 0px 20px; float: left; }
+section.first-sec div.con3 div.o2 div.par button:nth-of-type(2) { background-color: #000; border: 0px; height: 200%; width: 20%; color: #fff; border-radius: 100px; margin-left: -10px; position: absolute; top: -15; }
+section.first-sec div.con3 div.o2 div.par button:nth-of-type(2):hover { background-color: rgba(0, 0, 0, 0.8); }
+section.first-sec div.con3 div.o2 div.par button:nth-of-type(2):active { background-color: #e67e22; }
+section.first-sec div.con3 div.o2 div.par button:nth-of-type(3) { background-color: rgba(0, 0, 0, 0.5); border: 0px; height: 100%; width: 70%; color: #fff; border-radius: 0 20px 20px 0; float: left; padding-left: 20px; }
+section.first-sec div.row4 div.o1, section.first-sec div.row4 div.o2, section.first-sec div.row4 div.o3 { box-shadow: -1px 1px 8px 8px #ccc; }
+section.first-sec div.row4 div.o1:hover, section.first-sec div.row4 div.o2:hover, section.first-sec div.row4 div.o3:hover { box-shadow: -5px 5px 9px 9px #ccc; }
+section.first-sec div.row4 div.o2 { margin-left: 20px; margin-top: -20px; }
+section.first-sec div.row4 div.o3 { margin-left: 30px; margin-top: 20px; }
+section.first-sec div.row4 div.o1 { height: 200px; background-color: #e67e22; font-family: Aparajita; color: #fff; }
+section.first-sec div.row4 div.o1 h4 { padding-top: 20px; padding-bottom: 15px; font-size: 20px; }
+section.first-sec div.row4 div.o1 p { font-size: 18px; }
+section.first-sec div.row4 div.o1 div.down { margin-top: 20px; }
+section.first-sec div.row4 div.o1 div.down button:first-of-type { border: 0px; width: 80%; float: left; color: #fff; height: 30px; background-color: #e79d5b; border-radius: 0 30px 30px 0; }
+section.first-sec div.row4 div.o1 div.down button:first-of-type:hover { background-color: #424147; }
+section.first-sec div.row4 div.o1 div.down button:last-of-type { border: 0px; width: 20%; float: left; border-radius: 30px 0 0 30px; color: #fff; height: 30px; background-color: rgba(0, 0, 0, 0.5); }
+section.first-sec div.row4 div.o1 div.down button:last-of-type:hover { background-color: rgba(0, 0, 0, 0.7); }
+section.first-sec div.row4 div.o2 { height: 400px; background-color: #0b1016; border: 3px solid #eceded; border-radius: 10px; color: #e9ebeb; font-family: Aparajita; }
+section.first-sec div.row4 div.o2 h4 { padding: 15px 20px; border-bottom: 1px solid #eceded; }
+section.first-sec div.row4 div.o2 div.l1, section.first-sec div.row4 div.o2 div.l2, section.first-sec div.row4 div.o2 div.l3 { height: 65px; font-size: 14px; border-top: 1px solid #eceded; border-bottom: 1px solid #eceded; margin-bottom: 17px; margin-top: 17px; width: 215px; float: right; position: relative; padding-top: 5px; padding-left: 50px; }
+section.first-sec div.row4 div.o2 div.l1 div.rad, section.first-sec div.row4 div.o2 div.l2 div.rad, section.first-sec div.row4 div.o2 div.l3 div.rad { width: 70px; height: 70px; border-radius: 50%; border: 2px solid #eceded; float: left; font-size: 38px; padding: 14px; background-color: #0b1016; position: absolute; left: -30; top: -5; }
+section.first-sec div.row4 div.o2 div.l1:hover, section.first-sec div.row4 div.o2 div.l2:hover, section.first-sec div.row4 div.o2 div.l3:hover { border-color: #e67e22; color: #e67e22; }
+section.first-sec div.row4 div.o2 div.l1:hover div.rad, section.first-sec div.row4 div.o2 div.l2:hover div.rad, section.first-sec div.row4 div.o2 div.l3:hover div.rad { border-color: #e67e22; color: #e67e22; }
+section.first-sec div.row4 div.o2 div.down h6 { font-size: 20px; padding-top: 300px; padding-left: 118px; }
+section.first-sec div.row4 div.o2 div.down h6 i { font-size: 15px; }
+section.first-sec div.row4 div.o2 div.down h6:hover { color: #e67e22; }
+section.first-sec div.row4 div.o3 { background-color: rgba(0, 0, 0, 0.2); }
+section.first-sec div.row4 div.o3:hover { background-color: rgba(0, 0, 0, 0.7); }
+section.first-sec div.row4 div.o3 div.up button { border: 0px; margin-top: 30px; width: 45%; padding: 8px 12px; float: left; border-radius: 30px; }
+section.first-sec div.row4 div.o3 div.up button:first-of-type { float: left; background-color: #fff; margin-left: 10px; }
+section.first-sec div.row4 div.o3 div.up button:first-of-type:hover { background-color: #e67e22; color: #fff; }
+section.first-sec div.row4 div.o3 div.up button:last-of-type { float: right; background-color: #e67e22; margin-right: 10px; color: #fff; }
+section.first-sec div.row4 div.o3 div.up button:last-of-type:hover { background-color: #424147; }
+section.first-sec div.row4 div.o3 div.btn div.slider { width: 60px; background-color: #000; height: 25px; border-radius: 30px; position: relative; overflow: hidden; color: #fff; border: 0px; float: left; margin-left: 40px; margin-top: 15px; margin-bottom: 15px; }
+section.first-sec div.row4 div.o3 div.btn div.slider ul { width: 120px; position: absolute; transition: all 2s ease; }
+section.first-sec div.row4 div.o3 div.btn div.slider ul li:first-of-type { width: 50px; float: left; height: 25px; background-color: #e67e22; padding: 3px 10px; }
+section.first-sec div.row4 div.o3 div.btn div.slider ul li:nth-of-type(2) { width: 25px; height: 25px; float: left; background-color: #fff; border-radius: 50%; position: absolute; left: 37; }
+section.first-sec div.row4 div.o3 div.btn div.slider ul li:last-of-type { width: 50px; float: left; height: 25px; background-color: #424147; padding: 3px 15px; border-radius: 60px; }
+section.first-sec div.row4 div.o3 div.btn ul.off { left: -37px; }
+section.first-sec div.row4 div.o3 div.btn ul.off:active { animation: slideee2 1s ease-in-out; left: 0; }
+section.first-sec div.row4 div.o3 div.btn ul.on:active { animation: slideee 1s ease-in-out; left: -37; }
+section.first-sec div.row4 div.o3 div.cont { background-color: #e67e22; padding: 20px 30px; border-radius: 4px; margin-top: 10px; font-size: 15px; color: #fff; font-weight: normal; margin: 10px 13px; }
+section.first-sec div.row4 div.o3 div.swit { width: 94%; display: block; margin: auto; height: 40px; margin-bottom: 10px; border-radius: 30px; color: #fff; }
+section.first-sec div.row4 div.o3 div.swit p { padding: 12px 10px; float: left; }
+section.first-sec div.row4 div.o3 div.swit button { width: 110px; height: 40px; background-color: #fff; color: #424147; padding: 7px 15px; border: 0; border-radius: 31px; float: right; }
+section.first-sec div.row4 div.o3 div.swit button i { width: 20%; float: left; }
+section.first-sec div.row4 div.o3 div.swit button i.ff { font-size: 16px; font-weight: bold; }
+section.first-sec div.row4 div.o3 div.swit button span { width: 80%; float: left; }
+section.first-sec div.row4 div.o3 div.k1 { background-color: #44b96b; }
+section.first-sec div.row4 div.o3 div.k2 { background-color: #e85657; }
+section.first-sec div.row4 div.o3 div.k3 { background-color: #fcb040; }
+section.first-sec div.row4 div.o3 div.k1:hover, section.first-sec div.row4 div.o3 div.k2:hover, section.first-sec div.row4 div.o3 div.k3:hover { background-color: #424147; }
+section.first-sec div.row5 div.o1, section.first-sec div.row5 div.o2 { box-shadow: -1px 1px 8px 8px #ccc; }
+section.first-sec div.row5 div.o1:hover, section.first-sec div.row5 div.o2:hover { box-shadow: -5px 5px 9px 9px #ccc; }
+section.first-sec div.row5 div.o1 { margin-top: -140px; }
+section.first-sec div.row5 div.o2 { margin-left: 40px; margin-top: 30px; }
+section.first-sec div.row5 div.o1 { height: 494px; background-color: #fff; }
+section.first-sec div.row5 div.o1 div.up { background-color: #fff; color: #424147; border-radius: 6px 6px 0 0; }
+section.first-sec div.row5 div.o1 div.up h4 { padding: 15px 0 10px 15px; font-size: 17px; }
+section.first-sec div.row5 div.o1 div.con1, section.first-sec div.row5 div.o1 div.con2, section.first-sec div.row5 div.o1 div.con3 { height: 150px; background-image: url(../images/sec-1-14.jpg); background-repeat: no-repeat; background-size: cover; color: #fff; font-family: Aparajita; font-size: 20px; }
+section.first-sec div.row5 div.o1 div.con1 button, section.first-sec div.row5 div.o1 div.con2 button, section.first-sec div.row5 div.o1 div.con3 button { background-color: #e67e22; color: #fff; border: 0; width: 30%; padding: 4px 6px 4px 0; border-radius: 0 20px 20px 0; margin-top: 30px; margin-bottom: 20px; }
+section.first-sec div.row5 div.o1 div.con1 button:hover, section.first-sec div.row5 div.o1 div.con2 button:hover, section.first-sec div.row5 div.o1 div.con3 button:hover { background-color: #424147; width: 35%; }
+section.first-sec div.row5 div.o1 div.con1 h3, section.first-sec div.row5 div.o1 div.con2 h3, section.first-sec div.row5 div.o1 div.con3 h3 { padding-left: 10px; }
+section.first-sec div.row5 div.o1 div.con1 p, section.first-sec div.row5 div.o1 div.con2 p, section.first-sec div.row5 div.o1 div.con3 p { font-size: 20px; color: #ccc; padding-left: 10px; margin-top: -6px; }
+section.first-sec div.row5 div.o1 div.con2, section.first-sec div.row5 div.o1 div.con3 { background-color: #fff; background-image: none; color: #424147; border-top: 1px solid #ccc; height: 150px; }
+section.first-sec div.row5 div.o1 div.con2:hover, section.first-sec div.row5 div.o1 div.con3:hover { background-color: rgba(0, 0, 0, 0.7); color: #fff; }
+section.first-sec div.row5 div.o2 { background-image: url(../images/sec-1-15.jpg); background-size: cover; height: 400px; position: relative; color: #fff; z-index: 1; border-radius: 10px; overflow: hidden; }
+section.first-sec div.row5 div.o2:after { content: ""; width: 100%; height: 100%; position: absolute; top: 0px; left: 0px; background-color: rgba(0, 0, 0, 0.5); z-index: -1; }
+section.first-sec div.row5 div.o2:hover { filter: grayscale(1); }
+section.first-sec div.row5 div.o2 h2 { padding-top: 150px; letter-spacing: 20px; font-size: 50px; }
+section.first-sec div.row5 div.o2 p { margin-top: -50px; color: #ddd; }
+
+/*end of first sec*/
+/*end of second sec*/
+section.second-sec { margin-top: 100px; background-image: url(../images/sec-1-16.jpg); height: 400px; background-attachment: fixed; background-repeat: round; z-index: 1; position: relative; color: #fff; }
+section.second-sec:after { content: ""; width: 100%; height: 100%; position: absolute; top: 0px; left: 0px; background-color: rgba(0, 0, 0, 0.7); z-index: -1; }
+section.second-sec h2 { padding-top: 30px; font-family: Aparajita; font-size: 40px; }
+section.second-sec p.ll { color: #999; margin-top: -10px; line-height: 10px; letter-spacing: 4px; text-transform: uppercase; }
+section.second-sec div.o1, section.second-sec div.o2, section.second-sec div.o3, section.second-sec div.o4 { margin-right: -30%; }
+section.second-sec div.o1 span, section.second-sec div.o2 span, section.second-sec div.o3 span, section.second-sec div.o4 span { width: 120px; height: 120px; border-radius: 50%; background-color: #e67e22; padding: 39px  0px; margin-top: 30px; font-size: 30px; display: block; margin: 30px auto; font-weight: bold; letter-spacing: 3px; opacity: 0.5; }
+section.second-sec div.o1 span:hover, section.second-sec div.o2 span:hover, section.second-sec div.o3 span:hover, section.second-sec div.o4 span:hover { opacity: 1; }
+section.second-sec div.o1 span.t1, section.second-sec div.o2 span.t1, section.second-sec div.o3 span.t1, section.second-sec div.o4 span.t1 { background-color: #44b96b; }
+section.second-sec div.o1 span.t1:hover, section.second-sec div.o2 span.t1:hover, section.second-sec div.o3 span.t1:hover, section.second-sec div.o4 span.t1:hover { background-color: #424147; transform: scale(1.2) rotate(360deg); }
+section.second-sec div.o1 span.t2, section.second-sec div.o2 span.t2, section.second-sec div.o3 span.t2, section.second-sec div.o4 span.t2 { background-color: #e85657; }
+section.second-sec div.o1 span.t2:hover, section.second-sec div.o2 span.t2:hover, section.second-sec div.o3 span.t2:hover, section.second-sec div.o4 span.t2:hover { background-color: #424147; transform: scale(1.2) rotate(360deg); }
+section.second-sec div.o1 span.t4, section.second-sec div.o2 span.t4, section.second-sec div.o3 span.t4, section.second-sec div.o4 span.t4 { background-color: #02b7ee; }
+section.second-sec div.o1 span.t4:hover, section.second-sec div.o2 span.t4:hover, section.second-sec div.o3 span.t4:hover, section.second-sec div.o4 span.t4:hover { background-color: #424147; transform: scale(1.2) rotate(360deg); }
+section.second-sec div.o1 span.t3, section.second-sec div.o2 span.t3, section.second-sec div.o3 span.t3, section.second-sec div.o4 span.t3 { background-color: #e67e22; }
+section.second-sec div.o1 span.t3:hover, section.second-sec div.o2 span.t3:hover, section.second-sec div.o3 span.t3:hover, section.second-sec div.o4 span.t3:hover { background-color: #424147; transform: scale(1.2) rotate(360deg); }
+section.second-sec div.o1 p, section.second-sec div.o2 p, section.second-sec div.o3 p, section.second-sec div.o4 p { font-size: 14px; color: #ccc; }
+
+/*end of second sec*/
+/*start  of third sec*/
+section.third-sec { position: relative; color: #424147; }
+section.third-sec h1 { padding-top: 70px; line-height: 25px; letter-spacing: 4px; font-family: arial; font-weight: 200; }
+section.third-sec div.up { margin-top: 80px; display: block; padding-bottom: 300px; }
+section.third-sec hr { margin: auto; }
+section.third-sec div.down { padding-top: 60px; margin-left: 8%; }
+section.third-sec div.rad, section.third-sec div.rad1 { width: 60px; height: 60px; border-radius: 50%; border: 2px solid #000; font-size: 30px; padding-top: 15px; margin: auto; margin-bottom: 30px; position: relative; background-color: #fff; }
+section.third-sec div.rad:hover, section.third-sec div.rad1:hover { color: #e67e22; border-color: #e67e22; box-shadow: 3px 3px 3px #ccc; }
+section.third-sec div.rad:after, section.third-sec div.rad1:after { content: ""; position: absolute; width: 1px; height: 80px; top: 218px; left: 15px; background-color: #424147; }
+section.third-sec div.rad1:after { content: ""; position: absolute; width: 1px; height: 62px; top: -64px; left: 30px; background-color: #424147; }
+section.third-sec div.rad div.cir { position: absolute; top: 205px; left: 8px; font-size: 15px; text-shadow: 3px 3px 3px #ccc; cursor: pointer; }
+section.third-sec div.rad:hover div.rad:after div.cir { color: #e67e22; background-color: #e67e22; box-shadow: 4px 4px 4px #ccc; }
+section.third-sec div.rad1:hover div.rad:after { color: #e67e22; background-color: #e67e22; }
+section.third-sec p { font-size: 14px; letter-spacing: 1.5px; }
+section.third-sec div.lo { width: 30px; height: 30px; border-radius: 50%; border: 2px solid #424147; padding: 4px; padding-left: 6px; position: absolute; top: 485px; left: 50px; background-color: #fff; }
+section.third-sec div.lo1 { width: 30px; height: 30px; border-radius: 50%; border: 2px solid #424147; padding: 4px; position: absolute; top: 485px; right: 50px; background-color: #fff; }
+section.third-sec div.lo:hover, section.third-sec div.lo1:hover { background-color: #e67e22; color: #fff; border-color: #fff; box-shadow: 3px 3px 3px #ccc; }
+
+/*end of third sec*/
+/*start of increase sec*/
+section.increase { background-image: url(../images/sec-4-1.jpg); background-size: cover; height: 400px; position: relative; z-index: 1; overflow: hidden; margin-top: 50px; background-attachment: fixed; }
+section.increase:after { content: ""; position: absolute; width: 100%; height: 100%; top: 0px; left: 0px; background-color: rgba(0, 0, 0, 0.6); z-index: -1; }
+section.increase:before { content: ""; position: absolute; border: 40px solid #e67e22; top: 320px; left: 46.99%; border-color: transparent transparent #fff transparent; }
+section.increase div.svg img { width: 90%; display: block; margin: 120px auto; }
+section.increase div.o1 { background-color: rgba(0, 0, 0, 0.5); height: 100%; border-right: 1px solid #fff; }
+section.increase div.o2 { background-color: rgba(145, 24, 23, 0.5); height: 100%; }
+section.increase h2 { color: #fff; padding-top: 90px; padding-bottom: 25px; }
+section.increase p { color: #fff; padding-top: 10px; font-size: 18px; }
+
+/*end of increase sec*/
+/*start of our-work sec*/
+section.our-work { padding-top: 70px; }
+section.our-work h2 { font-weight: normal; font-family: arial; font-size: 25px; color: #e67e22; position: relative; padding-bottom: 30px; }
+section.our-work h2:after { position: absolute; content: ""; width: 43px; height: 3px; background-color: #e67e22; top: 30; left: 0; }
+section.our-work div.o1, section.our-work div.o2, section.our-work div.o3 { margin-left: 5%; background-color: #e67e22; padding: 10px 5px; color: #fff; font-size: 16px; position: relative; z-index: 1; height: 180px; border-radius: 10px; }
+section.our-work div.o1 div.rad, section.our-work div.o2 div.rad, section.our-work div.o3 div.rad { width: 30px; height: 30px; border-radius: 50%; border: 3px solid #fff; padding: 4px; margin-top: 10px; }
+section.our-work div.fol { margin-left: -30px; }
+section.our-work div.o2:after, section.our-work div.o3:after { position: absolute; content: ""; top: 0px; left: -42px; width: 80px; height: 100%; background-color: #e67e22; transform-origin: bottom right; transform: skewX(-12deg); z-index: -1; border-radius: 10px 0 0 10px; }
+section.our-work div.o2:before, section.our-work div.o1:before { position: absolute; content: ""; top: 0px; left: 220px; width: 80px; height: 100%; background-color: #e67e22; transform-origin: bottom right; transform: skewX(-12deg); z-index: -1; border-radius: 0px 10px 10px 0px; }
+
+/*end of increase sec*/
+/*start of tech sec*/
+section.tech { background-image: url(../images/sec-5-1.jpg); background-attachment: fixed; height: 150px; margin-top: 100px; background-repeat: round; position: relative; z-index: 1; overflow: hidden; box-shadow: 8px 8px 13px #ccc; }
+section.tech:after { content: ""; width: 100%; height: 100%; top: 0; left: 0; background-color: rgba(0, 0, 0, 0.6); position: absolute; z-index: -1; }
+section.tech h2 { padding-top: 20px; color: #fff; font-family: arial; font-size: 20px; position: relative; }
+section.tech h2:before { position: absolute; content: ""; width: 50px; height: 2px; background-color: #fff; top: 45px; }
+section.tech p { color: #fff; padding-top: 30px; display: block; font-size: 40px; }
+section.tech p:hover { color: #e67e22; text-shadow: 3px 3px 3px #ccc; transform: rotate(360deg); transform-origin: left; }
+section.tech span.l1 { color: #00618B; font-family: arial; }
+section.tech span.l2 { color: #E58E00; font-family: arial; }
+section.tech i.lol { color: #1F74AA; }
+section.tech p.l { color: #6D7EB6; }
+section.tech i.css { color: #33A9DC; }
+section.tech i.html { color: #F1662A; }
+section.tech p.j { color: #144E9A; }
+
+/*end of tech sec*/
+body { height: 5000px; }
+
+/*start of os sec*/
+section.os { margin-top: 50px; }
+section.os h3 { padding: 30px 0; }
+section.os h1 { letter-spacing: -3px; font-weight: normal; font-family: arial; text-shadow: 3px 3px 3px #ccc; }
+section.os div.apple { position: relative; display: block; }
+section.os i.bor { position: absolute; top: 30; left: -37; font-size: 520px; }
+section.os div.outter { height: 300px; background-image: url(../images/sec-6-1.jpg); background-size: cover; border-radius: 8px; position: relative; z-index: 0; overflow: hidden; margin-top: 23px; }
+section.os div.outter:after { content: ""; width: 100%; height: 100%; top: 0; left: 0; position: absolute; z-index: -1; background-color: rgba(0, 0, 0, 0.5); }
+section.os div.outter div { height: 20px; background-color: #232323; color: #fff; border-radius: 8px 8px 0 0; }
+section.os div.outter div h5:hover { color: #e67e22; }
+section.os div.outter div ul li { display: inline-block; font-size: 15px; padding-right: 4px; cursor: pointer; }
+section.os div.outter div ul li:hover { color: #e67e22; }
+section.os div.outter div ul { padding-left: 10px; }
+section.os div.outter div i.fa-apple { padding-left: 10px; }
+section.os div.outter div i.fa-apple:hover { color: #e67e22; }
+section.os div.inner { height: 200px; background-image: url(../images/sec-6-2.jpg); background-size: cover; width: 250px; position: absolute; top: 150; left: 50; border-radius: 4px; overflow: hidden; filter: grayscale(0.4); }
+section.os div.inner:hover { filter: grayscale(0); }
+section.os div.inner div.up { height: 17px; background-color: #131416; color: #fff; }
+section.os div.inner div.up h4 { margin-top: -20px; }
+section.os div.inner div.up ul li { width: 10px; height: 10px; border-radius: 50%; background-color: #fff; display: inline-block; margin-top: 3px; margin-left: 3px; cursor: pointer; }
+section.os div.inner div.up ul li:hover { opacity: 0.6; }
+section.os div.inner div.up ul li:first-of-type { background-color: #FF5B56; }
+section.os div.inner div.up ul li:nth-of-type(2) { background-color: #fdbf48; }
+section.os div.inner div.up ul li:last-of-type { background-color: #2ECA43; }
+section.os div.windows { height: 300px; background-image: url(../images/sec-6-3.jpg); background-size: cover; border-radius: 5px; overflow: hidden; color: #fff; margin-left: 10%; box-shadow: 18px 18px 28px #ccc; margin-top: 20px; }
+section.os div.windows:hover { box-shadow: 28px 28px 28px #ccc; }
+section.os div.windows div.start { height: 30px; background-color: #111111; margin-top: 270px; }
+section.os div.windows div.start ul.lef { margin-left: 7px; display: block; }
+section.os div.windows div.start ul.lef li { display: inline-block; margin-right: 5px; padding-top: 5px; cursor: pointer; }
+section.os div.windows div.start ul.lef li:nth-of-type(2) { color: #FDE492; }
+section.os div.windows div.start ul.lef li:nth-of-type(3) { color: #3276BF; }
+section.os div.windows div.start ul.rig { margin-left: 180px; display: block; font-size: 15px; }
+section.os div.windows div.start ul.rig li { display: inline-block; cursor: pointer; }
+section.os div.windows div.start ul.rig li:hover { color: #e67e22; }
+section.os div.windows div.start ul.rig li.time { font-size: 10px; padding-top: 3px; }
+section.os div.lol { position: relative; }
+section.os i.cor { position: absolute; top: -54px; font-size: 520px; left: 568px; }
+
+/*end of os sec*/
+/*end of shy sec*/
+/*end of shy sec*/
+div.loding-overlay { position: fixed; width: 100%; height: 100%; top: 0px; left: 0px; background-color: #fff; z-index: 99999; }
+div.loding-overlay i.lol { font-size: 140px; padding: 40vh 45vw; color: #000; display: block; color: #e67e22; animation: rotateee 1s ease-in-out infinite alternate; }
+
+div.stroc { width: 150px; height: 150px; border-radius: 50%; border: 3px dashed #e67e22; display: block; margin: 40vh auto; animation: rotateee 1s ease-in-out infinite alternate; background-color: transparent; position: relative; overflow: hidden; }
+div.stroc div.kooor, div.stroc div.kooor1, div.stroc div.kooor2, div.stroc div.kooor3 { position: absolute; width: 50%; height: 50%; }
+div.stroc div.kooor { top: 0px; left: 0px; background-color: #e67e22; }
+div.stroc div.kooor1 { background-color: #0ff; top: 50%; left: 50%; }
+div.stroc div.kooor2 { top: 0%; left: 50%; background-color: #f0f; }
+div.stroc div.kooor3 { top: 50%; left: 0%; background-color: #fff; transform: rotate(90deg); animation: colore 0.5s ease-in-out infinite alternate; }
+
+button.bt-top { position: fixed; bottom: 10px; right: 10px; padding: 10px; background-color: #e67e22; width: 60px; height: 60px; color: #fff; opacity: 0; outline: none; z-index: 9999; border: 0px; border-radius: 50%; }
+button.bt-top:hover { box-shadow: 4px 4px 4px #ccc; }
+
+@keyframes slideee { from { left: 0; }
+  to { left: -37px; } }
+@keyframes slideee2 { from { left: -37px; }
+  to { left: 0; } }
+@keyframes rotateee { from { transform: rotate(0deg) scale(0.5); color: #e67e22; }
+  to { transform: rotate(360deg) scale(1.5); color: #424147; } }
+@keyframes colore { from { background-color: #e67e22; }
+  to { background-color: #424147; } }
+@keyframes colore1 { from { background-color: #e67e22; }
+  to { background-color: #424147; } }
+@keyframes colore2 { from { background-color: #e67e22; }
+  to { background-color: #424147; } }
+@keyframes colore3 { from { background-color: #e67e22; }
+  to { background-color: #424147; } }
+
+/*# sourceMappingURL=home.css.map */

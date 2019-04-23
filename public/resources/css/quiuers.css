@@ -1,0 +1,47 @@
+/* screen -- 1200px */
+@media only screen and (max-width : 1200px) {
+    .hero-text-box {
+        padding: 0 2% ;
+        width: 100% ;
+    }
+    .row {padding: 0 2% ;}
+    
+}
+
+/* big tablets -- 768 to 1023px */
+@media only screen and (max-width : 768px) {
+    body { font-size:18px ; }
+    section {padding: 60px 0 ;}
+    .long-copy {
+    width: 80% ;
+    margin-left: 10%;}
+    .steps-box { margin-top: 10px ; }
+    .steps-box:last-child {margin-top: 10px; }
+
+    .works-step {margin-bottom: 40px; }
+    .works-step:last-of-type{
+    margin-bottom: 40px; }
+    .app-screen { width: 50% ; }
+    .bttm-apps img  {width: auto;
+    margin-left: 5px;} 
+    .icon-small{width: 17px;
+    margin-right: 10px ;}
+    .city-futures {font-size: 70% ; 
+    padding-bottom: 10px;}
+    blockquote{font-size: 60% ; }
+    .plan-box { font-size: 70% ; }
+    .footer-nav {font-size: 80%;}
+}
+    
+
+/* small taplets -- 481 to 767px */
+@media only screen and (max-width : 767px) {
+    
+}
+
+
+
+/* small phones -- 0 to 480px */
+@media only screen and (max-width : 480px) {
+    
+}
