@@ -408,7 +408,7 @@
             <br>For those who aspire to master web design, the question is not really “Does a web designer need to learn how to code?” but it’s more of “How much code does a web designer need to learn?”.
             <br>A designer does not need to be an HTML or CSS guru. Or an expert coder. A designer needs to understand just enough about the code that forms the basis of the web – to be able to connect the dots and make sound design decisions.
         </p>
-        <img src="Design.jpg">
+        <img src="images/Design.jpg">
       </div>
       <div class="d3">
         <h2>Programming</h2>
@@ -420,7 +420,7 @@
             <br>Many programming languages require computation to be specified in an imperative form (i.e., as a sequence of operations to perform) while other languages use other forms of program specification such as the declarative form (i.e. the desired result is specified, not how to achieve it).
             <br>The description of a programming language is usually split into the two components of syntax (form) and semantics (meaning). Some languages are defined by a specification document (for example, the C programming language is specified by an ISO Standard) while other languages (such as Perl) have a dominant implementation that is treated as a reference. Some languages have both, with the basic language defined by a standard and extensions taken from the dominant implementation being common
         </p>
-        <img src="01.jpg">
+        <img src="images/01.jpg">
        </div>
        <div class="d4">
           <h2>Android</h2>
