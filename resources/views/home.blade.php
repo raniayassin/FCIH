@@ -4,7 +4,7 @@
 
 <head>
     <link rel="stylesheet" type="text/css" href="{{ asset('views') }}/vendors/css/ionicons.min.css">
-        <link rel="stylesheet" href="{{ asset('views') }}/css/footer-distributed-with-address-and-phones.css">
+    <link rel="stylesheet" href="css/footer-distributed-with-address-and-phones.css">
     <link rel="stylesheet" type="text/css" href="{{ asset('views') }}/resources/css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
     
@@ -358,10 +358,10 @@
 
 </head>                                  
     <body>
-        <header> 
+        <header style="background-color:#404040; "> 
             <nav>
                 <div class="row">
-                    <img src="{{ asset('views') }}/vendors/css/img/logo3.png" id="logo" >
+                    <img img src="{{ asset('webhome') }}/vendors/css/img/logo3.png" id="logo" >
                     <ul class="main-nav">
                          @if (session('status'))
                         <div class="alert alert-success">
@@ -429,7 +429,7 @@
             <br>In 2007, the green Android logo was designed for Google by graphic designer Irina Blok. The design team was tasked with a project to create a universally identifiable icon with the specific inclusion of a robot in the final design. After numerous design developments based on science fiction and space movies, the team eventually sought inspiration from the human symbol on restroom doors and modified the figure into a robot shape. As Android is open-source, it was agreed that the logo should be likewise, and since its launch the green logo has been reinterpreted into countless variations on the original desi
             <br>The success of Android has made it a target for patent and copyright litigation as part of the so-called "smartphone wars" between technology companies.
           </p>
-          <img src="{{ asset('views') }}/Android.jpg">
+          <img src="images/Android.jpg">
       </div>
     </div>
 

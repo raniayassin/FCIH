@@ -306,7 +306,7 @@
         <header> 
             <nav>
                 <div class="row">
-                    <img src="vendors/css/img/logo3.png" id="logo" >
+                    <img src="{{ asset('webhome') }}/vendors/css/img/logo3.png" id="logo" >
                     <ul class="main-nav">
                          @if (session('status'))
                         <div class="alert alert-success">
