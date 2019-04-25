@@ -12,7 +12,7 @@
 */
 
 Route::get('/', function () {
-    return view('webhome.homecontent.homecontent');
+    return view('welcome');
 });
 
 
