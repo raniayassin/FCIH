@@ -330,7 +330,7 @@
             <h2>Choose</h2>
             <div class="courses-info" >
                 <ul class="courses">
-                    <a class="btm btm-ghost" href="">Courses</a>
+                    <a class="btm btm-ghost" href="{{ url('/courses') }}">Courses</a>
                 </ul>
 
 
