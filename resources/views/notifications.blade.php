@@ -82,11 +82,11 @@
             position: fixed  ;
             left: 36% ;
         }
-        .courses {
+        .users {
              margin: 0 ! important ; 
             
         }
-        .courses-info {
+        .users-info {
             margin: 30px ;
             padding: 15px ; 
             background-color: white; 
@@ -326,48 +326,21 @@
             </nav>
 
         </header>
-        <section class="courses">
-            <h2>Choose</h2>
-            <div class="courses-info" >
-                <ul class="courses">
-                    <a class="btm btm-ghost" href="{{ url('/courses') }}">Courses</a>
-                </ul>
+        <section class="users">
+         
 
-
- 
-
-            </div>
-            <div class="more" >
-
-            <div class="courses-info" >
-                <ul class="courses">
-                    <a class="btm btm-ghost" href="{{ url('/usersboard') }}">Users</a>
-                </ul>
-
-
-            </div>
-
-            <div class="courses-info" >
-                <ul class="courses">
-                    <a class="btm btm-ghost" href="{{ url('/notifications') }}">Notifications</a>
-                </ul>
-
-             </div>
-
-            <div class="courses-info" >
-                <ul class="courses">
-                    <a class="btm btm-ghost" href="">News</a>              
-                </ul>
-            </div>  
-
-           
-
-            <div class="courses-info" >
-                <ul class="courses">
-                    <a class="btm btm-ghost" href="">Feedback</a>
-                </ul>
-            </div>
-            
+            <table class="table table-dark w-50 m-auto">
+                <thead>
+                    <tr>
+                        <th scope="col">Email      </th>
+                        <th scope="col">password</th>
+                    </tr>
+                </thead>
+                <tbody>
+               
+                </tbody>
+            </table>
+    
         </section>
         
                     

@@ -20,6 +20,7 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/courses', 'coursesController@index')->name('courses');
+Route::get('/notifications', 'notifications@index')->name('notifications');
 Route::get('/usersboard', 'usersboard@show')->name('usersboard');
 Route::get('/delete/{id}', 'usersboard@deleteUser') ;
 Route::get('/usersboard', 'usersboard@showusers')->name('usersboard');
