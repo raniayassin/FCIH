@@ -29,7 +29,7 @@ class usersboard extends Controller
 
     public function showUsers()
     {
-        $users=UserModel::all();
+        $users=UserModel::all(); 
         return view('usersboard')->with('users',$users);
     }
 }
