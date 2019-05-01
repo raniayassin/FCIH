@@ -341,7 +341,7 @@
 
             <div class="courses-info" >
                 <ul class="courses">
-                    <a class="btm btm-ghost" href="/FCIH/public/usersboard">Users</a>
+                    <a class="btm btm-ghost" href="{{ url('/usersboard') }}">Users</a>
                 </ul>
 
 
