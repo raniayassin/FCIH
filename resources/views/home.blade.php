@@ -369,7 +369,7 @@
                         </div>
                     @endif
                         <li> <a href="{{ url('/') }}">Home</a></li>
-                        <li> <a href="#">Contact</a></li>
+                        <li> <a href="{{ url('/contact') }}">Contact</a></li>
                         <li> <a href="#">ِAbout Us</a></li>
                         <li> <a href="{{ route('logout') }}"onclick="event.preventDefault();  document.getElementById('logout-form').submit();">Logout</a>
                     <form id="logout-form" action="{{ route('logout') }}" method="POST" >
