@@ -47,3 +47,7 @@ Route::group(['middleware' => 'auth'], function(){
      })->name('dashboard');
 
 });
+
+
+
+Route::resource('news', 'NewsController');
