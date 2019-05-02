@@ -3,13 +3,13 @@
 
 <head>
     <link rel="stylesheet" type="text/css" href="vendors/css/ionicons.min.css">
-    	<link rel="stylesheet" href="css/footer-distributed-with-address-and-phones.css">
+        <link rel="stylesheet" href="css/footer-distributed-with-address-and-phones.css">
     <link rel="stylesheet" type="text/css" href="resources/css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
     
-	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
 
-	<link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
 
     <title >Courses Camp</title>
     <style type="text/css">
@@ -360,22 +360,25 @@
         <header> 
             <nav>
                 <div class="row">
-                    <img src="vendors/css/img/logo3.png" id="logo" >
+                    <img src="{{ asset('webhome') }}/vendors/css/img/logo3.png" id="logo" >
                     <ul class="main-nav">
-                        <li> <a href="userhome.html">Home</a></li>
-                        <li> <a href="contactus.html">Contact</a></li>
-                        <li> <a href="aboutus.html">About Us</a></li>
-                        <li> <a href="homecontent.html">ِLog Out</a></li>
+                         @if (session('status'))
+                        <div class="alert alert-success">
+                            {{ session('status') }}
+                        </div>
+                    @endif
+                        <li> <a href="{{ url('home') }}">Home</a></li>
+                        <li> <a href="{{ route('logout') }}"onclick="event.preventDefault();  document.getElementById('logout-form').submit();">Logout</a>
+                    <form id="logout-form" action="{{ route('logout') }}" method="POST" >
+                    {{ csrf_field() }}
+                     </form>
+                        </li>
+                        
                     </ul>
                     
                 </div>
             </nav>
-                <div class="hero-text-box">
-                    <div id="first-btm">
-                    <a class="btm btm-full" href="">Premium</a>
-                    <a class="btm btm-ghost" href="">Totally Free</a>
-                    </div>
-                </div>
+
         </header>
 
 
@@ -416,60 +419,62 @@
 
         <footer class="footer-distributed">
 
-			<div class="footer-left">
+            <div class="footer-left">
 
-				<h3>Courses<span>Camp</span></h3>
+                <h3>Courses<span>Camp</span></h3>
 
-				<p class="footer-links">
-					<a href="userhmeo.html">Home</a>
-					
-					<a href="aboutus.html">About us</a>
-					
-					<a href="contactus.html">Contact Us</a>
+                <p class="footer-links">
+                    <a href="userhmeo.html">Home</a>
                     
-				</p>
+                    <a href="aboutus.html">About us</a>
+                    
+                    <a href="contactus.html">Contact Us</a>
+                    
+                </p>
 
-				<p class="footer-company-name">FCIH &copy; 2019</p>
-			</div>
+                <p class="footer-company-name">FCIH &copy; 2019</p>
+            </div>
 
-			<div class="footer-center">
+            <div class="footer-center">
 
-				<div>
-					<i class="fa fa-map-marker"></i>
-					<p><span>Helwan University</span> cairo , Egypt</p>
-				</div>
+                <div>
+                    <i class="fa fa-map-marker"></i>
+                    <p><span>Helwan University</span> cairo , Egypt</p>
+                </div>
 
-				<div>
-					<i class="fa fa-phone"></i>
-					<p>+20 122 123456</p>
-				</div>
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <p>+20 122 123456</p>
+                </div>
 
-				<div>
-					<i class="fa fa-envelope"></i>
-					<p><a href="mailto:support@fcih.com.com">support@fcih.com</a></p>
-				</div>
+                <div>
+                    <i class="fa fa-envelope"></i>
+                    <p><a href="mailto:support@fcih.com.com">support@fcih.com</a></p>
+                </div>
 
-			</div>
+            </div>
 
-			<div class="footer-right">
+            <div class="footer-right">
 
-				<p class="footer-company-about">
-					<span>About the company</span>
+                <p class="footer-company-about">
+                    <span>About the company</span>
  We are the right place that will provide you courses that will help you in your life.          
                 </p>
 
-				<div class="footer-icons">
+                <div class="footer-icons">
 
-					<a href="#"><i class="fa fa-facebook"></i></a>
-					<a href="#"><i class="fa fa-twitter"></i></a>
-					<a href="#"><i class="fa fa-linkedin"></i></a>
-					<a href="#"><i class="fa fa-github"></i></a>
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                    <a href="#"><i class="fa fa-linkedin"></i></a>
+                    <a href="#"><i class="fa fa-github"></i></a>
 
-				</div>
+                </div>
 
-			</div>
+            </div>
 
-		</footer>
+        </footer>
 
     </body>
 </html>
+
+  
