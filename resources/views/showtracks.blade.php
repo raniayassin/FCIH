@@ -82,11 +82,11 @@
             position: fixed  ;
             left: 36% ;
         }
-        .courses {
+        .users {
              margin: 0 ! important ; 
             
         }
-        .courses-info {
+        .users-info {
             margin: 30px ;
             padding: 15px ; 
             background-color: white; 
@@ -302,9 +302,8 @@
 
 
 </head>
-
-<body>
-            <header> 
+    <body>
+        <header> 
             <nav>
                 <div class="row">
                     <img src="{{ asset('webhome') }}/vendors/css/img/logo3.png" id="logo" >
@@ -327,30 +326,34 @@
             </nav>
 
         </header>
+        <section class="tracks">
+         
 
-        <section>
-                   <center>
-         <form action="insert" method="post">
-            <table>
-                <tr>
-                    {{ csrf_field() }}
-                    <td>Name : </td>
-                    <td><input type="text" name="name"></td>
-                </tr>
-                 <tr>
-                    <td>Description : </td>
-                    <td><input type="text" name="description"></td>
-                </tr>
-                <tr>
-                    <td><input type="submit" name="submit" value="Add"></td>
-                </tr>
+           <table class="table table-dark w-50 m-auto">
+                <thead>
+                    <tr>
+                        <th scope="col">Name</th>
+                        <th scope="col">Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach($tracks as $track)
+                    <tr>
+                        <td>{{$track->name}}</td>
+                        <td>{{$track->description}}</td>
+                        <td>
+                            <a href="./delete/{{$user->id}}" class="btn btn-danger">Delete</a>
+                        </td>
+                        
+                    </tr>
+                    @endforeach
+                </tbody>
             </table>
-
-         </form>
-        </center>
+    
         </section>
-
-                        <footer class="footer-distributed">
+        
+                    
+                <footer class="footer-distributed">
 
             <div class="footer-left">
 
@@ -405,5 +408,5 @@
 
         </footer>
 
-</body>
+    </body>
 </html>

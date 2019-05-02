@@ -364,7 +364,7 @@
 
             <div class="courses-info" >
                 <ul class="courses">
-                    <a class="btm btm-ghost" href="">Feedback</a>
+                    <a class="btm btm-ghost" href="{{ url('/showtracks') }}">show tracks</a>
                 </ul>
             </div>
             

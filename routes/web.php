@@ -25,6 +25,8 @@ Route::get('/usersboard', 'usersboard@show')->name('usersboard');
 Route::get('/delete/{id}', 'usersboard@deleteUser') ;
 Route::get('/usersboard', 'usersboard@showusers')->name('usersboard');
 Route::get('/track/index','TrackController@index')->name('index');
+Route::get('/showtracks', 'showController@index')->name('showtracks');
+Route::post('/insert','TrackController@insert');
 
 Route::post('/login.custom',[
 

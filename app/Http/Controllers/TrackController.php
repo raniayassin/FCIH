@@ -12,6 +12,14 @@ class TrackController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
+          protected  function insert(Request $req)
+    {
+            return Track::insert([
+            'name' => $req['name'],
+            'description' => $req['description'],
+        ]);
+
+    }
     public function index()
     {
         //
