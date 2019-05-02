@@ -24,6 +24,7 @@ Route::get('/notifications', 'notifications@index')->name('notifications');
 Route::get('/usersboard', 'usersboard@show')->name('usersboard');
 Route::get('/delete/{id}', 'usersboard@deleteUser') ;
 Route::get('/usersboard', 'usersboard@showusers')->name('usersboard');
+Route::get('/track/index','TrackController@index')->name('index');
 
 Route::post('/login.custom',[
 
