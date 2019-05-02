@@ -50,4 +50,3 @@ Route::group(['middleware' => 'auth'], function(){
 
 
 
-Route::resource('news', 'NewsController');
